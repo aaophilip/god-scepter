@@ -1,47 +1,43 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import headerStyles from './header.module.css'
+import headerStyles from './styles.module.css'
+import logo from '../images/FB_IMG_1513337606507.jpg'
 
 const Header = () => (
-  <div className={headerStyles.nav}>
-    <div className={headerStyles.navCon}>
-      <h1 className={headerStyles.header1}>
-        <Link to="/" className={headerStyles.brand}>
-          GOSDAM
-        </Link>
-      </h1>
+  <div className={headerStyles.wrapper}>
+    <div className={headerStyles.container}>
+      <div className={headerStyles.siteName}>
+        <Link to="/"><img src={logo} width="70px" height="70px" alt="logo" /></Link>
+      </div>
 
-      <div className={headerStyles.styleTwo}>
+      <div className={headerStyles.menu}>
+        <button aria-expanded="false" aria-controls="menu-list">
+          <span class="open">☰</span>
+          <span class="close">×</span>
+          Menu
+        </button>
         <ul>
           <li>
-            <Link to="/" className={headerStyles.listLink}>
-              Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about/" className={headerStyles.listLink}>
-              About
-            </Link>
+            <Link to="/about/">About</Link>
           </li>
           <li>
-            <Link to="/events/" className={headerStyles.listLink}>
-              Events
-            </Link>
+            <Link to="/events/">Events</Link>
           </li>
           <li>
-            <Link to="/gallery/" className={headerStyles.listLink}>
-              Gallery
-            </Link>
+            <Link to="/gallery/">Gallery</Link>
           </li>
           <li>
-            <Link to="/contacts/" className={headerStyles.listLink}>
-              Contacts
-            </Link>
+            <Link to="/contacts/">Contacts</Link>
           </li>
         </ul>
       </div>
     </div>
   </div>
 )
+
+
 
 export default Header
