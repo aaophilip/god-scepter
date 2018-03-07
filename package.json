@@ -5,8 +5,12 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.215",
+    "gatsby-image": "^1.0.41",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sharp": "^1.6.39",
+    "gatsby-source-filesystem": "^1.5.26",
+    "gatsby-transformer-sharp": "^1.6.22",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

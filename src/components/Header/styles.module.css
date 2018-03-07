@@ -58,12 +58,12 @@ align-items: stretch;
 
 #footWrap{
   display: grid;
-  grid-template-areas: "copy free social";
+  grid-template-areas: "copy . social";
   grid-template-columns: 200px 1fr 150px;
-  grid-template-rows: 50px;
+  grid-template-rows: 74px;
   align-items: center;
   margin-top: 1.45rem;
-  background-image: url(../images/wrapper.png);
+  background-image: url(../images/footer.gif);
 }
 
 #footWrap p {

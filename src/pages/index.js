@@ -1,21 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { withPrefix } from 'gatsby-link'
 import banner from '../components/images/GS_Banner.png'
+import '../layouts/index.css'
 
 const IndexPage = () => (
-  <div>
+  <div id="wrapperHome">
     <div id="slide">
-      <img
-        width="940"
-        height="495"
-        src={banner}
-      />
+      <img width="940" height="400" src={banner} />
     </div>
-    <div id="">
+    <div id="box1">
       <h1>
         <span>Welcome</span>
       </h1>
-      <img src="https://source.unsplash.com/random/420x200" />
+      <img src="https://source.unsplash.com/random/450x250" />
       <p>
         <span>
           Pellentesque vel nisl in diam congue luctus. Nulla feugiat ipsum
@@ -24,14 +22,14 @@ const IndexPage = () => (
           finibu suscipit quam.
         </span>
       </p>
-      <div>Read more</div>
+      <div id="readM">Read more</div>
     </div>
-    <div id="">
+    <div id="box2">
       <h1>
         <span>What's New</span>
       </h1>
 
-      <img src="https://source.unsplash.com/random/420x200" />
+      <img src="https://source.unsplash.com/random/450x250" />
       <p>
         <span>
           Integer nec lorem vel erat congue bibendum. Suspendisse potenti.
@@ -40,17 +38,17 @@ const IndexPage = () => (
           sollicitudin ac.
         </span>
       </p>
-      <div>Read more</div>
+      <div id="readM">Read more</div>
     </div>
-    <div id="">
+    <div id="rule">
       <hr />
     </div>
-    <div id="">
+    <div id="box3">
       <h1>
         <span>Events</span>
       </h1>
       <p>
-        <span>Vestibulum liberotctis et quasee.</span>
+        <span id="bigP">Vestibulum liberotctis et quasee.</span>
       </p>
       <p>
         <span>
@@ -59,14 +57,14 @@ const IndexPage = () => (
           eget tellus non erat lacinia fer mentu.
         </span>
       </p>
-      <div>Read more</div>
+      <div id="readM">Read more</div>
     </div>
-    <div id="">
+    <div id="box4">
       <h1>
         <span>Actors</span>
       </h1>
       <p>
-        <span>Sed ut perspiciatis unde omnis.</span>
+        <span id="bigP">Sed ut perspiciatis unde omnis.</span>
       </p>
       <p>
         <span>
@@ -75,7 +73,7 @@ const IndexPage = () => (
           eget tellus non erat lacinia fer mentu.
         </span>
       </p>
-      <div>Read more</div>
+      <div id="readM">Read more</div>
     </div>
   </div>
 )

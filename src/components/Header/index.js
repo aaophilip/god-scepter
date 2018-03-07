@@ -2,12 +2,15 @@ import React from 'react'
 import Link from 'gatsby-link'
 import headerStyles from './styles.module.css'
 import logo from '../images/FB_IMG_1513337606507.jpg'
+import Img from 'gatsby-image'
 
-const Header = () => (
+const Header = ({ data }) => (
   <div className={headerStyles.wrapper}>
     <div className={headerStyles.container}>
       <div className={headerStyles.siteName}>
-        <Link to="/"><img src={logo} width="70px" height="70px" alt="logo" /></Link>
+        <Link to="/">
+          <img src={logo} width="70px" height="70px" alt="logo" />
+        </Link>
       </div>
 
       <div className={headerStyles.menu}>
@@ -38,6 +41,16 @@ const Header = () => (
   </div>
 )
 
-
-
 export default Header
+
+export const query = graphql`
+  query HeaderImageQuery {
+    file(relativePath: { regex: "/GS_Banner/" }) {
+      childImageSharp {
+        resolutions(width: 70, height: 70) {
+          ...GatsbyImageSharpResolutions
+        }
+      }
+    }
+  }
+`
