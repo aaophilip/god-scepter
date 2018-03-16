@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import '../layouts/index.css'
 const AboutPage = () => (
-  <div>
-    <div class="aboutR1">
-      <p>
+  <div id="aboutWrap">
+    <div id="aboutUs">
+      <h1>
         <span>ABOUT US</span>
-      </p>
+      </h1>
       <img src="https://source.unsplash.com/random/280x147" />
       <p>
         <span>
@@ -16,10 +17,10 @@ const AboutPage = () => (
         </span>
       </p>
     </div>
-    <div>
-      <p>
+    <div id="shows">
+      <h1>
         <span>SHOWS</span>
-      </p>
+      </h1>
       <img src="https://source.unsplash.com/random/280x147" />
       <p>
         <span>
@@ -29,10 +30,10 @@ const AboutPage = () => (
         </span>
       </p>
     </div>
-    <div>
-      <p>
+    <div id="coming">
+      <h1>
         <span>COMING SOON</span>
-      </p>
+      </h1>
       <img src="https://source.unsplash.com/random/280x147" />
       <p>
         <span>
@@ -44,81 +45,89 @@ const AboutPage = () => (
       </p>
     </div>
 
-    <div class="aboutR2">
+    <div id="aboutHr">
       <hr />
     </div>
 
-    <div class="aboutR4">
-      <p>
+    <div id="teamH">
+      <h1>
         <span>TEAM</span>
-      </p>
+      </h1>
     </div>
 
-    <div class="aboutR5">
-      <img src="https://source.unsplash.com/random/206x147" />
-      <p>
-        <span>
-          "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
-          aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
-          in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
-          adispiscing aliese. vestibulum molestie lacus."
-        </span>
-      </p>
-      <p>
-        <span>Dan Tomson</span>
-      </p>
-      <img src="https://source.unsplash.com/random/206x147" />
-      <p>
-        <span>
-          "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
-          aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
-          in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
-          adispiscing aliese. vestibulum molestie lacus."
-        </span>
-      </p>
-      <p>
-        <span>Dan Tomson</span>
-      </p>
+    <div id="team1">
+      <img src="https://source.unsplash.com/random/213x147" />
+      <div>
+        <p>
+          <span>
+            "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
+            aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
+            in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
+            adispiscing aliese. vestibulum molestie lacus."
+          </span>
+        </p>
+        <p>
+          <span id="tSpanName">Dan Tomson</span>
+        </p>
+      </div>
+      <img src="https://source.unsplash.com/random/213x147" />
+      <div>
+        <p>
+          <span>
+            "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
+            aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
+            in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
+            adispiscing aliese. vestibulum molestie lacus."
+          </span>
+        </p>
+        <p>
+          <span id="tSpanName">Dan Tomson</span>
+        </p>
+      </div>
     </div>
 
-    <div class="aboutR6">
-      <p>
-        <span>
-          "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
-          aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
-          in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
-          adispiscing aliese. vestibulum molestie lacus."
-        </span>
-      </p>
-      <p>
-        <span>Dan Tomson</span>
-      </p>
-      <img src="https://source.unsplash.com/random/206x147" />
-      <p>
-        <span>
-          "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
-          aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
-          in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
-          adispiscing aliese. vestibulum molestie lacus."
-        </span>
-      </p>
-      <p>
-        <span>Dan Tomson</span>
-      </p>
-      <img src="https://source.unsplash.com/random/206x147" />
+    <div id="team2">
+      <div>
+        <p>
+          <span>
+            "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
+            aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
+            in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
+            adispiscing aliese. vestibulum molestie lacus."
+          </span>
+        </p>
+        <p>
+          <span id="tSpanName">Dan Tomson</span>
+        </p>
+      </div>
+      <img src="https://source.unsplash.com/random/213x147" />
+      <div>
+        <p>
+          <span>
+            "Viverra sed nullnec porta dim ssae diam lorem interdum vitaes
+            aelerisque vitae pedenec eget tellus non erat lacinia fer mentumonec
+            in velit vel ipsum auctorul vinarroin ullamcorper urna eonsect etuer
+            adispiscing aliese. vestibulum molestie lacus."
+          </span>
+        </p>
+        <p>
+          <span id="tSpanName">Dan Tomson</span>
+        </p>
+      </div>
+      <img src="https://source.unsplash.com/random/213x147" />
     </div>
 
-    <div class="aboutR7">
+    <div id="aboutHr2">
       <hr />
     </div>
 
-    <div class="aboutR8">
-      <p>
+    <div id="partners">
+      <h1>
         <span>PARTNERS</span>
-      </p>
+      </h1>
     </div>
 
-    <div class="aboutR10">
+    <div id="partIcon">
       <img
         width="107px"
         height="101px"

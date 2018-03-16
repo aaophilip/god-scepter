@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { withPrefix } from 'gatsby-link'
+
 import banner from '../components/images/GS_Banner.png'
 import '../layouts/index.css'
 
@@ -26,7 +26,7 @@ const IndexPage = () => (
     </div>
     <div id="box2">
       <h1>
-        <span>What's New</span>
+        <span>Events </span>
       </h1>
 
       <img src="https://source.unsplash.com/random/450x250" />
@@ -45,7 +45,7 @@ const IndexPage = () => (
     </div>
     <div id="box3">
       <h1>
-        <span>Events</span>
+        <span>What's New</span>
       </h1>
       <p>
         <span id="bigP">Vestibulum liberotctis et quasee.</span>
