@@ -22,7 +22,7 @@ const ContactsPage = () => (
         <input name="phone" placeholder="Your Phone Number (Optional)" type="tel" tabindex="3" required/>
         </fieldset>
         <fieldset>
-          <textarea placeholder ="Type your message here...." tabindex ="4"
+          <textarea name="message" placeholder ="Type your message here...." tabindex ="4"
             required> </textarea>
         </fieldset>
         <fieldset>
