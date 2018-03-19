@@ -6,7 +6,7 @@ const ContactsPage = () => (
     <div className="containerC">
       <form id="contact"
       name="contact"
-        data-netlify="true"
+      data-netlify="true"
       data-netlify-honeypot="bot-field"
       method="post">
         <h3>Contact Form</h3>
@@ -21,9 +21,9 @@ const ContactsPage = () => (
         <fieldset>
         <input name="phone" placeholder="Your Phone Number (Optional)" type="tel" tabindex="3" required/>
         </fieldset>
-        < fieldset >
-          <textarea placeholder = "Type your message here...." tabindex = "5"
-            required > </textarea>
+        <fieldset>
+          <textarea placeholder ="Type your message here...." tabindex ="4"
+            required> </textarea>
         </fieldset>
         <fieldset>
           <button name="submit"
