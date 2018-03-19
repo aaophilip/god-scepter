@@ -1,8 +1,8 @@
 {
   "name": "god-scepter",
-  "description": "Gatsby default starter",
+  "description": "God Scepter Drama Ministry's website!",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Apata Adeyinka Philip <phil2dcore@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.215",
     "gatsby-image": "^1.0.41",
