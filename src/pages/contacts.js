@@ -16,7 +16,7 @@ const ContactsPage = () => (
         <input name="name" placeholder="Your Name" type="text" tabindex="1" required autofocus/>
         </fieldset>
         <fieldset>
-        <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required/>
+        <input name="email" placeholder="name@domain.com" type="email" tabindex="2" required/>
         </fieldset>
         <fieldset>
         <input name="phone" placeholder="Your Phone Number (Optional)" type="tel" tabindex="3" required/>
