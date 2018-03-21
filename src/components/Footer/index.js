@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import headerStyles from '../Header/styles.module.css'
+import fb from '../images/fb.png'
+import ig from '../images/ig.png'
+import yt from '../images/yt.png'
 
 const Footer = () => (
   <div>
@@ -11,31 +14,31 @@ const Footer = () => (
       paddingTop: 0
     }}>
       <p>
-        <span>God Scepter © 2018 •</span>
+        <span>God Scepter © 2018</span>
       </p>
 
       <div id={headerStyles.social}>
-        <a>
+        <a href="#">
           <img
-            width="20px"
-            height="18px"
-            src="https://source.unsplash.com/random/100x100"
+            width="32px"
+            height="32px"
+            src={fb}
           />
         </a>
 
-        <a>
-          <img
-            width="20px"
-            height="18px"
-            src="https://source.unsplash.com/random/100x100"
-          />
+        <a href="#">
+        <img
+        width="32px"
+        height="32px"
+        src={yt}
+        />
         </a>
 
-        <a>
+        <a href="#">
           <img
-            width="20px"
-            height="18px"
-            src="https://source.unsplash.com/random/100x100"
+            width="32px"
+            height="32px"
+            src={ig}
           />
         </a>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import eve from '../layouts/index.css'
+import sp from '../components/images/sp.jpg'
 
 const EventsPage = () => (
   <div id="eveWrap">
@@ -109,7 +110,7 @@ const EventsPage = () => (
         <img id="eve6img"
           width="259px"
           height="255px"
-          src="https://templates.cms-guide.com/41606/images/c82cc4e14a1d2c8c8ffff9840d24b558_S.jpg"
+          src={sp}
         />
 
         <div className = "eve6F">

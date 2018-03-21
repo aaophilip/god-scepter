@@ -2,13 +2,21 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import '../layouts/index.css'
+import aboutUs from '../components/images/aboutUs.jpg'
+import shows from '../components/images/showsReal.jpg'
+import comingSoon from '../components/images/comingSoon.jpg'
+import t1 from '../components/images/tm1.jpg'
+import t2 from '../components/images/tm2.jpg'
+import t3 from '../components/images/tm3.jpg'
+import t4 from '../components/images/tm4.jpg'
+
 const AboutPage = () => (
   <div id="aboutWrap">
     <div id="aboutUs">
       <h1>
         <span>ABOUT US</span>
       </h1>
-      <img src="https://source.unsplash.com/random/280x147" />
+      <img width="280" height="147" src={aboutUs}/>
       <p>
         <span>
           In vehicula leo sem, et semper risus iaculis sed. Quisque mattis urna
@@ -21,7 +29,7 @@ const AboutPage = () => (
       <h1>
         <span>SHOWS</span>
       </h1>
-      <img src="https://source.unsplash.com/random/280x147" />
+      <img width="280" height="147" src={shows}/>
       <p>
         <span>
           Aliquam commodo tempor magna, quis aliquam metus. Vestibulum semper
@@ -34,7 +42,7 @@ const AboutPage = () => (
       <h1>
         <span>COMING SOON</span>
       </h1>
-      <img src="https://source.unsplash.com/random/280x147" />
+      <img width="280" height="147" src={comingSoon}/>
       <p>
         <span>
           Proin ac venenatis odio. Nullam efficitur lectus in pharetra lacinia.
@@ -56,7 +64,7 @@ const AboutPage = () => (
     </div>
 
     <div id="team1">
-      <img src="https://source.unsplash.com/random/213x147" />
+      <img width="213" height="147" src={t1} />
       <div>
         <p>
           <span>
@@ -67,10 +75,10 @@ const AboutPage = () => (
           </span>
         </p>
         <p>
-          <span id="tSpanName">Dan Tomson</span>
+          <span id="tSpanName">Micheal O. Ogunniyi</span>
         </p>
       </div>
-      <img src="https://source.unsplash.com/random/213x147" />
+      <img width="213" height="147" src={t2} />
       <div>
         <p>
           <span>
@@ -100,7 +108,7 @@ const AboutPage = () => (
           <span id="tSpanName">Dan Tomson</span>
         </p>
       </div>
-      <img src="https://source.unsplash.com/random/213x147" />
+      <img width="213" height="147" src={t3} />
       <div>
         <p>
           <span>
@@ -114,7 +122,7 @@ const AboutPage = () => (
           <span id="tSpanName">Dan Tomson</span>
         </p>
       </div>
-      <img src="https://source.unsplash.com/random/213x147" />
+      <img width="213" height="147" src={t4} />
     </div>
 
     <div id="aboutHr2">

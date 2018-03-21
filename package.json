@@ -2,7 +2,7 @@
   "name": "god-scepter",
   "description": "God Scepter Drama Ministry's website!",
   "version": "1.0.0",
-  "author": "Apata Adeyinka Philip <phil2dcore@gmail.com>",
+  "author": "Adeyinka Philip Apata <phil2dcore@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.215",
     "gatsby-image": "^1.0.41",

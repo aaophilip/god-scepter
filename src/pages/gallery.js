@@ -1,19 +1,29 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import '../layouts/index.css'
+import g1 from '../components/images/gallery1.jpg'
+import g2 from '../components/images/gallery2.jpg'
+import g3 from '../components/images/gallery3.jpg'
+import g4 from '../components/images/gallery4.jpg'
+import g5 from '../components/images/gallery5.jpg'
+import g6 from '../components/images/gallery6.jpg'
+import g7 from '../components/images/gallery7.jpg'
+import g8 from '../components/images/gallery8.jpg'
+import g9 from '../components/images/gallery9.jpg'
 
 const GalleryPage = () => (
   <div id="galleryWrap">
     <div id="galleryR1">
-      <p>
+      <h1>
         <span>Gallery</span>
-      </p>
+      </h1>
     </div>
     <div id="galleryMain">
       <div>
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery1.jpg"
+          src={g1}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -33,7 +43,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery2.jpg"
+          src={g2}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -53,7 +63,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery3.jpg"
+          src={g3}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -73,7 +83,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery4.jpg"
+          src={g4}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -93,7 +103,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery5.jpg"
+          src={g5}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -113,7 +123,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery6.jpg"
+          src={g6}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -133,7 +143,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery7.jpg"
+          src={g7}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -153,7 +163,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery8.jpg"
+          src={g8}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>
@@ -173,7 +183,7 @@ const GalleryPage = () => (
         <img
           width="293px"
           height="237px"
-          src="https://templates.cms-guide.com/41606/images/gallery9.jpg"
+          src={g9}
         />
         <p>
           <span>ETIAM CURSUS LEO</span>

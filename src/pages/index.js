@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import banner from '../components/images/GS_Banner.png'
 import '../layouts/index.css'
+import banner from '../components/images/GS_Banner.png'
+import welcome from '../components/images/welcome_h.jpg'
+import events from '../components/images/events.jpg'
 
 const IndexPage = () => (
   <div id="wrapperHome">
@@ -13,7 +15,7 @@ const IndexPage = () => (
       <h1>
         <span>Welcome</span>
       </h1>
-      <img src="https://source.unsplash.com/random/450x250" />
+      <img width="450" height="250" src={welcome} />
       <p>
         <span>
           Pellentesque vel nisl in diam congue luctus. Nulla feugiat ipsum
@@ -29,7 +31,7 @@ const IndexPage = () => (
         <span>Events </span>
       </h1>
 
-      <img src="https://source.unsplash.com/random/450x250" />
+      <img width="450" height="250" src={events} />
       <p>
         <span>
           Integer nec lorem vel erat congue bibendum. Suspendisse potenti.
