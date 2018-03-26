@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import '../layouts/index.css'
 import banner from '../components/images/GS_Banner.png'
 import welcome from '../components/images/welcome_h.jpg'
 import events from '../components/images/events.jpg'

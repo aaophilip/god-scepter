@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import eve from '../layouts/index.css'
+
 import sp from '../components/images/sp.jpg'
 
 const EventsPage = () => (
@@ -29,7 +29,7 @@ const EventsPage = () => (
       </div>
 
       <div id="eveD2" className="dateCirc">
-        <span class="date">13 JUL</span>
+        <span className="date">23 JUL</span>
       </div>
 
       <div id="eveDesc">
@@ -57,7 +57,7 @@ const EventsPage = () => (
 
     <div id="eve4">
       <div id="eveD3" className="dateCirc">
-        <span class="date">21 MAR</span>
+        <span className="date">21 MAR</span>
       </div>
 
       <div id="eveDesc">
@@ -73,7 +73,7 @@ const EventsPage = () => (
       </div>
 
       <div id="eveD4" className="dateCirc">
-        <span class="date">13 SEP</span>
+        <span className="date">13 SEP</span>
       </div>
 
       <div id="eveDesc">

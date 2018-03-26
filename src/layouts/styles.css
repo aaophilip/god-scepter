@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro:300,400,600,700');
+
+#wrapperHome {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 400px auto;
+  grid-template-areas: "slide slide" "box1 box2" "hrl hrl" "box3 box4";
+}
+
+#slide {
+  grid-area: slide;
+}
+
+#box1 {
+  grid-area: box1;
+}
+
+#box2 {
+  grid-area: box2;
+}
+
+#rule {
+  grid-area: hrl;
+}
+
+#box3 {
+  grid-area: box3;
+}
+
+#box4 {
+  grid-area: box4;
+}
+
+h1>span {
+  margin-top: -3.5px;
+  /* line-height: 1.7; */
+  font-family: 'Source Sans Pro' !important;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #acacac;
+}
+
+p {
+  line-height: 1.4;
+  text-align: left;
+  margin-top: -2px;
+}
+
+#bigP {
+  font-size: 17px;
+  color: #acacac !important;
+  /* font-weight: lighter; */
+  /* line-height: 1.4; */
+}
+
+p>span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  /* font-weight: lighter; */
+  color: #4e4e4e !important;
+  line-height: inherit;
+  vertical-align: text-top;
+}
+
+#readM {
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: -2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-size: 10px;
+  letter-spacing: 0px;
+  color: white !important;
+}
+
+hr {
+  vertical-align: top;
+  background: rgba(173, 171, 171, 0.219) !important;
+}
+
+#aboutWrap {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "about shows coming" "hr1 hr1 hr1" "teamH teamH teamH" "team1 team1 team1" "team2 team2 team2" "hr2 hr2 hr2" "part1 part1 part1" "part2 part2 part2";
+  grid-template-rows: max-content;
+}
+
+#aboutUs {
+  grid-area: about;
+}
+
+#shows {
+  grid-area: shows;
+}
+
+#coming {
+  grid-area: coming;
+}
+
+#aboutHr {
+  grid-area: hr1;
+}
+
+#teamH {
+  grid-area: teamH;
+}
+
+#team1 {
+  grid-area: team1;
+  display: grid;
+  grid-template-columns: 4fr 4.8fr 4fr 4.8fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+#team2 {
+  grid-area: team2;
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 2.5fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+#aboutHr2 {
+  grid-area: hr2;
+}
+
+#partners {
+  grid-area: part1;
+}
+
+#partIcon {
+  grid-area: part2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 101px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#tSpanName {
+  font-size: 18px;
+  color: #eaa52d !important;
+}
+
+#eveWrap {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "eve1 eve1 eve1 eve1" "eve2 eve2 eve2 eve2" "eve3 eve3 eve3 eve3" "eve4 eve4 eve4 eve4" "eve5 eve5 eve5 eve5" "eve6 eve6 eve6 eve6"
+}
+
+#eve1 {
+  grid-area: eve1;
+}
+
+#eve2 {
+  grid-area: eve2;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  margin-bottom: -40px
+}
+
+#eve3 {
+  grid-area: eve3;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  grid-template-areas: ". rm1 . rm2";
+  margin-bottom: -30px;
+}
+
+#eve3RM1 {
+  grid-area: rm1;
+  padding-left: 25px;
+}
+
+#eve3RM2 {
+  grid-area: rm2;
+  padding-left: 25px;
+}
+
+#eve4 {
+  grid-area: eve4;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  margin-bottom: -40px
+}
+
+#eve5 {
+  grid-area: eve5;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  grid-template-areas: ". rm1 . rm2";
+  margin-bottom: -30px;
+}
+
+#eve5RM1 {
+  grid-area: rm1;
+  padding-left: 25px;
+}
+
+#eve5RM2 {
+  grid-area: rm2;
+  padding-left: 25px;
+}
+
+#eve6 {
+  grid-area: eve6;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "a" "b";
+}
+
+#eve6-2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: ". c a ";
+  grid-template-columns: 1fr 259px 500px;
+  grid-template-rows: 255px;
+}
+
+#eve6img {
+  grid-area: c;
+}
+
+.wrapper {
+  background-color: black;
+  /* margin-bottom: 1.45rem; */
+  /* margin-top: 1.45rem; */
+  max-height: 100px
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 90px;
+  grid-template-areas: "logo menu";
+  align-items: center;
+  background-color: transparent;
+}
+
+.siteName {
+  grid-area: logo;
+  /* align-self: flex-start; */
+  margin-left: 10px;
+}
+
+.siteName a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.menu ul {
+  display: grid;
+  grid-gap: 10px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  /* grid-template-rows: auto; */
+  align-items: stretch;
+}
+
+.menu a {
+  /* background: yellow; */
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: #f8c44e;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: bold;
+  /* justify-self: center; */
+  /* align-self: stretch */
+}
+
+[aria-controls="menu-list"] {
+  display: none;
+}
+
+
+#footWrap {
+  display: grid;
+  grid-template-areas: "copy . social";
+  grid-template-columns: 200px 1fr 150px;
+  grid-template-rows: 70px;
+  align-content: center;
+  margin-top: 1.45rem;
+  background-image: url('../components/images/footer.gif');
+}
+
+#footWrap p {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+#social {
+  display: grid;
+  grid-gap: 10px;
+  grid-area: social;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: auto;
+}
+
+#social a {
+  padding-top: 30px;
+}
+
+.eve6F {
+  grid-area: a;
+}
+
+.dateCirc {
+  width: 138px;
+  height: 138px;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  border-radius: 75px;
+  text-align: center;
+  text-justify: distribute-all-lines;
+}
+
+.dateCirc>span {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: 'Times New Roman';
+  color: #eaa52d !important;
+  position: relative;
+  line-height: 1.3;
+}
+
+#galleryWrap {
+  display: grid;
+  grid-template-areas: "a" "b";
+  grid-gap: 20px;
+}
+
+#galleryMain {
+  grid-area: b;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.containerC {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: transparent;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(252, 252, 252, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #505050;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #303030;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: rgba(67, 160, 72, 0.5);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+@media (max-width: 1000px) {
+  .container {
+    grid-template-areas: "logoMob"
+    "menuMob"
+    ;
+    grid-template-columns: auto;
+  }
+  .siteName{
+    grid-area: logoMob
+  }
+  .menu ul{
+    grid-area: menuMob;
+    
+
+  }
+
+}

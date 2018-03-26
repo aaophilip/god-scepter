@@ -5,14 +5,16 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './index.css'
+import './styles.css'
+import img from 'gatsby-image'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="God Scepter Drama Ministry"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' }
+        { name: 'description', content: 'We spread the Gospel of Christ through films' },
+        { name: 'keywords', content: 'Drama, Impact, Spiritual' }
       ]}
     />
     <Header />
@@ -24,7 +26,7 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0
       }}
     >
-      {children()}
+      {children() }
     </div>
     <Footer />
   </div>

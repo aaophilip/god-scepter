@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import '../layouts/index.css'
 import aboutUs from '../components/images/aboutUs.jpg'
 import shows from '../components/images/showsReal.jpg'
 import comingSoon from '../components/images/comingSoon.jpg'

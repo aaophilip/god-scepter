@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../layouts/index.css'
+
 import g1 from '../components/images/gallery1.jpg'
 import g2 from '../components/images/gallery2.jpg'
 import g3 from '../components/images/gallery3.jpg'

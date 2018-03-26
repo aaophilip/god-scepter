@@ -1,41 +1,41 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import headerStyles from './styles.module.css'
-import logo from '../images/FB_IMG_1513337606507.jpg'
+
+import logo from '../images/logo.png'
 
 const Header = () => (
-  <div className={headerStyles.wrapper}>
-    <div className={headerStyles.container}>
-      <div className={headerStyles.siteName}>
+  <div className="wrapper">
+    <div className="container">
+      <div className="siteName">
         <Link to="/">
           <img src={logo} width="70px" height="70px" alt="logo" />
         </Link>
       </div>
 
-      <div className={headerStyles.menu}>
-        <button aria-expanded="false" aria-controls="menu-list">
-          <span class="open">☰</span>
-          <span class="close">×</span>
-          Menu
-        </button>
+      <div className="menu">
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
+
           <li>
             <Link to="/about/">About</Link>
           </li>
+
           <li>
             <Link to="/events/">Events</Link>
           </li>
+
           <li>
             <Link to="/gallery/">Gallery</Link>
           </li>
+
           <li>
             <Link to="/contacts/">Contacts</Link>
           </li>
         </ul>
       </div>
+
     </div>
   </div>
 )
