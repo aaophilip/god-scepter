@@ -482,7 +482,7 @@ fieldset {
   }
   .menu ul{
     grid-area: menuMob;
-    
+    grid-template-columns: 1fr;
 
   }
 
